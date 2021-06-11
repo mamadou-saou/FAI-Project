@@ -1,12 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>membre</title>
 </head>
 <body>
-    <h1> La modestie c'est pour les ...</h1>
-    <p> Cogito ergo sum</p>
+    <p>enregistrement d'un utilisateur </p>
+    <table border="1">
+        <tr>
+            <td>nom</td>
+            <td><input type="text" name="nom"></td>
+        </tr>
+        <tr>
+            <td>prenom</td>
+            <td><input type="text" name="prenom"></td>        
+        </tr>
+    </table>
+    <p>
+        <tr>
+            <td>adress Email</td>
+            <td><input type="email"</td>
+        </tr>
+    </p>
+    <p></p>
+        <tr>
+            <td>mot de passe</td>
+            <td><input type="password" name="pass"</td>
+        </tr>
+    </p>
+    <p></p>
+        <tr>
+            <td>sexe</td>
+            <td>
+                homme:<input type="radio" name="sexe" value="M">
+                femme:<input type="radio" name="sexe" value="F">
+            </td>
+        </tr>
+    </p>
+    <p></p>
+        <tr>
+            <td>votre metier? </td>
+            <td>
+                <select name="metier">
+                    <option value="etudiant">etudiant</option>
+                    <option value="proffeseur">proffeseur</option>
+            </select>
+            </td>
+        </tr>
+    </p>
+    <p></p>
+        <tr>
+            <td>commentaires</td>
+            <textarea>taper ici votre commentaire</textarea>
+            <td colspan="2">
+                <input type="submit" name="envoyer">
+            </td>
+        </tr>
+    </p>
 </body>
 </html>
